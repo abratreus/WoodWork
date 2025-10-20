@@ -1,10 +1,10 @@
-import React from 'react';
+
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Catalogo from './pages/Catalogo';
-import Sobre from './pages/Sobre';
-import Login from './pages/Login';
-import NotFound from './pages/NotFound';
+import Home from './Pages/Home';
+import Catalogo from './Pages/Catalogo';
+import Sobre from './Pages/Sobre';
+import Login from './Pages/Login';
+import NotFound from './Pages/NotFound';
 import './App.css';
 
 function App() {
