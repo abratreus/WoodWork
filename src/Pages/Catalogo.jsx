@@ -1,7 +1,7 @@
 import React from 'react';
-import NavBar from '../components/NavBar/NavBar';
-import CatalogGrid from '../components/Catalog/CatalogGrid';
-import Footer from '../components/Footer/Footer';
+import NavBar from '../Components/NavBar/NavBar';
+import CatalogGrid from '../Components/Catalog/CatalogGrid';
+import Footer from '../Components/Footer/Footer';
 
 const Catalogo = () => {
   return (

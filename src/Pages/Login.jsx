@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import NavBar from '../components/NavBar/NavBar';
-import Button from '../components/Button/Button';
-import Footer from '../components/Footer/Footer';
+import NavBar from '../Components/NavBar/NavBar';
+import Button from '../Components/Button/Button';
+import Footer from '../Components/Footer/Footer';
 import './Login.css';
 
 const Login = () => {
