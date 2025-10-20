@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-import NavBar from '../Components/NavBar/NavBar';
 import Button from '../Components/Button/Button';
-import Footer from '../Components/Footer/Footer';
 import './Login.css';
 
 const Login = () => {
@@ -18,7 +16,6 @@ const Login = () => {
 
   return (
     <div>
-      <NavBar />
       <form className="login-form" onSubmit={handleSubmit}>
         <input
           type="email"
@@ -38,7 +35,6 @@ const Login = () => {
         />
         <Button type="submit">Entrar</Button>
       </form>
-      <Footer />
     </div>
   );
 };

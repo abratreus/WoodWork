@@ -1,23 +1,28 @@
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './Pages/Home';
-import Catalogo from './Pages/Catalogo';
-import Sobre from './Pages/Sobre';
-import Login from './Pages/Login';
-import NotFound from './Pages/NotFound';
-import './App.css';
+import { Routes, Route } from 'react-router-dom'
+import NavBar from './Components/NavBar/NavBar'
+import Footer from './Components/Footer/Footer'
+import Home from './pages/Home'
+import Catalogo from './pages/Catalogo'
+import Login from './pages/Login'
+import NotFound from './pages/NotFound'
+import Sobre from './pages/Sobre'
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/catalogo" element={<Catalogo />} />
-        <Route path="/sobre" element={<Sobre />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-    </Router>
+    <>
+      <NavBar />
+      <main id="main" style={{ minHeight: '70vh' }}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/catalogo" element={<Catalogo />} />
+          <Route path="/sobre" element={<Sobre />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </main>
+      <Footer />
+    </>
   );
 }
 
