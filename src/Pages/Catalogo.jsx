@@ -1,5 +1,5 @@
 import React from 'react';
-import CatalogGrid from '../Components/Catalog/CatalogGrid';
+import CatalogGrid from '../Components/catalog/CatalogGrid';
 
 const Catalogo = () => {
   return (
