@@ -1,0 +1,19 @@
+.catalog-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.catalog-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.catalog-card h3 {
+  margin: 1rem 0;
+}
+
+.catalog-card p {
+  color: #666;
+}
