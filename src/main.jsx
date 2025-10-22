@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/WoodWork">
+    <BrowserRouter basename="/WoodWork/">
       <App />
     </BrowserRouter>
   </React.StrictMode>
