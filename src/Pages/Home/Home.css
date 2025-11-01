@@ -1,0 +1,11 @@
+.header{
+    background-image: url(../../assets/pexels-jeshoots-com-147458-834892.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}

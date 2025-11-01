@@ -3,4 +3,9 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  padding-top: 80px;
+}
+
+.oculto {
+  display: none !important; /* Remove completamente o elemento do layout */
 }
