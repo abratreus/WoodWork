@@ -1,13 +1,13 @@
 .Logo {
-    width: 36px;
-    height: 36px;
+    width: 40px;
+    height: 40px;
     border-radius: 8px;
     margin-right: 8px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
     background-size: 250% auto;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('../../assets/logoBetter.png');
+    background-image: url('../../assets/logo.ico');
     transition: box-shadow 0.3s ease;
     cursor: pointer;
     display: inline-block;
