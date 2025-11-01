@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../Logo/Logo.ico';
+import logo from '../Logo/Logo';
 import './CatalogCard.css';
 
 const CatalogCard = ({ title, description, image }) => {
