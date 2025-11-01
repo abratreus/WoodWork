@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename={process.env.NODE_ENV === 'production' ? '/WoodWork/' : '/'}>
+    <BrowserRouter basename={process.env.NODE_ENV === 'production' ? '/woodwork/' : '/'}>
       <App />
     </BrowserRouter>
   </React.StrictMode>
