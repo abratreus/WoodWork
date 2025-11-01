@@ -1,5 +1,6 @@
 import React from 'react';
-import CatalogGrid from '../Components/Catalog/CatalogGrid';
+
+import CatalogGrid from '../../Components/Catalog/CatalogGrid.jsx';
 
 const Catalogo = () => {
   return (
