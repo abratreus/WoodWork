@@ -7,7 +7,7 @@ import Catalogo from './Pages/Catalogo/Catalogo.jsx'
 import Login from './Pages/Login/Login.jsx'
 import NotFound from './Pages/NotFound/NotFound.jsx'
 import Sobre from './Pages/Sobre/Sobre.jsx'
-import ErrorBoundary from "./components/ErrorBoundary/ErrorBoundary.jsx";
+import ErrorBoundary from "./Components/ErrorBoundary/ErrorBoundary.jsx";
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
 function App() {
